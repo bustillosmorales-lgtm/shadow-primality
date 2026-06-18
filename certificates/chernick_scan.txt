@@ -1,0 +1,6 @@
+
+DONE k<50,000,000 in 99s
+  Chernick Carmichael count : 62734   (paper at 5*10^7: 62,734)
+  maximum shadow-liar count : 6   (paper: 6)
+  number of 8-liars         : 0   (paper: 0)
+  liar-count distribution   : {0: 23262, 1: 23485, 2: 11799, 3: 3477, 4: 647, 5: 60, 6: 4}

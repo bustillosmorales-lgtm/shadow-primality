@@ -1,0 +1,13 @@
+=== PART 1: Korselt obstruction over primes p<20000 with nu2(p-1)=2 ===
+  |P| = 569   (paper: 569)
+  pair masks built (0s); scanning C(569,3) triples...
+  triples with >=5 depth-matches : 98806   (paper: 98,806)
+     of these satisfying Korselt : 0   (paper: 0)
+  triples with exactly 4 matches : 646886   (paper: 646,886)
+     of these satisfying Korselt : 5   (paper: 5)
+  elapsed                        : 3s
+
+=== PART 2: all-QR primes p=13 (mod 24) up to 5*10^6 ===
+  count of all-QR primes         : 340   (paper: 340)
+  C(340,3) triples satisfying Korselt : 0   (paper: 0)
+  elapsed                        : 1s

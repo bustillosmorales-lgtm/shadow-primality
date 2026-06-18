@@ -1,0 +1,27 @@
+=== Euler-survivors (all 8 shadow bases are Euler liars) ===
+  n = 399001 = 31*61*211  Carmichael: True
+     Euler liars among the 8 shadow bases: 8/8  (paper: survives every shadow base)
+     strong-MR liar rays: []  (count 0 -> MR refinement catches it: True)
+  n = 488881 = 37*73*181  Carmichael: True
+     Euler liars among the 8 shadow bases: 8/8  (paper: survives every shadow base)
+     strong-MR liar rays: [1]  (count 1 -> MR refinement catches it: True)
+
+=== liar-count records ===
+  n = 579606301  (4-liar)
+     factors [109, 541, 9829]  matches stated: True  Carmichael: True
+     strong-MR liar rays: [1, 5, 7, 11]  (count 4)  expected 4: True
+  n = 34558584607  (6-liar, all factors = 3 mod 4)
+     factors [443, 1327, 58787]  matches stated: True  Carmichael: True
+     strong-MR liar rays: [1, 5, 7, 13, 17, 19]  (count 6)  expected 6: True
+  n = 5588215337251  (7-liar)
+     factors [3571, 20231, 77351]  matches stated: True  Carmichael: True
+     strong-MR liar rays: [1, 5, 7, 11, 13, 17, 19]  (count 7)  expected 7: True
+
+=== targeted Carmichael (alignment condition (i) fails -> all 8 witnesses) ===
+  n = 11239359601  factors [281, 4201, 9521]  Carmichael: True
+     p=281: (r/p) for r in (5, 7, 11, 13, 17, 19, 23) = (1, 1, -1, -1, 1, -1, -1)   (-24/p) = -1
+     p=4201: (r/p) for r in (5, 7, 11, 13, 17, 19, 23) = (1, 1, -1, -1, 1, -1, -1)   (-24/p) = +1
+     p=9521: (r/p) for r in (5, 7, 11, 13, 17, 19, 23) = (1, 1, -1, -1, 1, -1, -1)   (-24/p) = -1
+     strong-MR liar rays: []  (all 8 are witnesses: True)
+
+ALL EXAMPLE CHECKS PASS

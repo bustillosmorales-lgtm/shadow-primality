@@ -1,0 +1,14 @@
+=== (A) shadow bases generate (Z/pZ)* below the first deficient prime ===
+  first deficient prime (smallest p with I_p > 1) : 6581
+  primes 5 <= p < 6581 with full generation : 849
+  paper states                                     : first failure 6581, 1227 primes
+  (sanity) number of primes 5 <= p < 6581          : 849
+
+=== (B) shadow bases cover all residues mod 5 and mod 7 ===
+  p=5: shadow-base residues = [0, 1, 2, 3, 4]  covers all of Z/5Z: True
+  p=7: shadow-base residues = [0, 1, 2, 3, 4, 5, 6]  covers all of Z/7Z: True
+
+=== (C) all 128 Legendre patterns realized among primes <= 10^5 ===
+  primes scanned (23 < p <= 10^5) : 9583
+  distinct Legendre patterns      : 128  (want 128 = 2^7)
+  all 128 realized                : True

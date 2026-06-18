@@ -1,0 +1,4 @@
+  8-LIAR semiprime: a=2 q=26294581 p=52589161 n=1382809953636541  Delta-form (caught at step 4)
+
+DONE q<=30,000,000 in 225s. 8-liar semiprimes found: 1
+a>=4 (frontier) examples: []

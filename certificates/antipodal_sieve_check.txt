@@ -1,0 +1,12 @@
+=== primes 5 <= p <= 10^7 bucketed by ray (mod 24) ===
+  ray  1: 82,887
+  ray  5: 83,080
+  ray  7: 83,070
+  ray 11: 83,047
+  ray 13: 83,124
+  ray 17: 83,089
+  ray 19: 83,113
+  ray 23: 83,167
+  total      : 664,577   (= pi(10^7) - 2 = 664,577)
+  per-ray average ~83,072  (paper: ~83,000), max-min spread 0.34% of mean
+  ray-sieve reconstruction matches Eratosthenes exactly: True

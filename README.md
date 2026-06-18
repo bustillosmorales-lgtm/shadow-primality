@@ -77,6 +77,14 @@ per line, up to `1e22`). Source: R. G. E. Pinch, *The Carmichael numbers up to 1
 Integrity: the file reproduces Pinch's published count of **20,138,200** Carmichael
 numbers up to `1e21` (asserted before any liar statistic is reported).
 
-## Certificates
-See `certificates/` for recorded outputs (Proth witness, the seven 8-liars, the
-deficiency census, the Section-5 checks).
+## Certificates (recorded outputs)
+`certificates/` holds the actual stdout of each locally reproducible script, so the
+verification can be read off directly without re-running:
+`group_generation.txt`, `carmichael_stats.txt`, `korselt_triplets.txt`,
+`chernick_scan.txt`, `verify_examples.txt`, `antipodal_sieve_check.txt`,
+`deficiency_index.txt`, `section5_checks.txt`, `proth_10006digit.txt`,
+`semiprime_hunt.txt`, `8liar_carmichael.txt`. Each line carries the paper's stated
+figure next to the recomputed one. The only outputs not recorded here are the two
+census-dependent runs (`census_scan.py`, `gcd_extraction.py`), which need the
+external Pinch/Goutier file; `census_10e22.txt` is the recorded result from the
+authors' run on that data.
