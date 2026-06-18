@@ -1,3 +1,9 @@
+# SCOPE: this file verifies that the SEVEN numbers below are genuine eight-base-liar
+# Carmichael numbers caught by the L-check (output of verify_8liar_carmichael.py).
+# It does NOT prove these are the ONLY eight-liars up to 10^22 -- that completeness
+# claim is established only by census_scan.py over the full Pinch/Goutier census
+# (OEIS A002997, ~1.1 GB, not bundled). These seven are themselves that census output.
+
 n = 256673641562639731
    factors [24379, 528191, 19933079]  product_ok=True  factors_prime=True
    Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True

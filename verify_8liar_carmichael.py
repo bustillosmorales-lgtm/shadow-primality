@@ -2,12 +2,19 @@
 """
 verify_8liar_carmichael.py
 
-Verifies the eight-base-liar Carmichael numbers reported in the paper:
-the seven that occur up to 10^22 (smallest 256673641562639731) plus psi_9.
+Verifies the seven eight-base-liar Carmichael numbers reported in the paper
+(smallest 256673641562639731; the list includes psi_9).
 For each n it checks: factorization, primality of factors, coprimality to 6,
 squarefreeness, the Korselt criterion (=> Carmichael), that all 8 shadow bases
 are strong liars (=> 8-liar), and that the least prime factor is <= n^{1/3}
 (=> caught by the L-check).
+
+SCOPE: this confirms that each of these seven numbers IS an eight-base-liar
+Carmichael caught by the L-check.  It does NOT establish completeness -- that
+these are the ONLY eight-liars up to 10^22.  Completeness is a census claim,
+reproducible only by census_scan.py over the full Pinch/Goutier census
+(OEIS A002997, ~1.1 GB, not bundled).  The seven numbers below are themselves
+the output of that census.
 """
 from math import prod
 from shadow_core import (PHI24, is_prime, liar_set, is_carmichael, factorize,
