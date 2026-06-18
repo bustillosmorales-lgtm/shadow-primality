@@ -1,0 +1,10 @@
+N = 526623 * 2^33220 + 1
+  digits          : 10006
+  k odd           : True
+  k < 2^m         : True
+
+  base a= 3: a^((N-1)/2) mod N == N-1 ? False   (50.8s elapsed)
+  base a= 5: a^((N-1)/2) mod N == N-1 ? False   (104.5s elapsed)
+  base a= 7: a^((N-1)/2) mod N == N-1 ? True   (171.1s elapsed)
+
+RESULT: N is PRIME (Proth witness a=7). Certified in 171.1s.

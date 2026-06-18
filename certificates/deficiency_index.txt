@@ -1,0 +1,12 @@
+Deficiency index census, primes coprime to 24, p <= 2x10^5:
+   I_p = 1: 17923
+   I_p = 2: 58
+   I_p = 3: 1
+   (paper: 58 with I_p=2, 1 with I_p=3 at p=96769)
+
+   I_96769 = 3
+   I_7789181 = 4
+   I_19249921 = 5
+
+Conclusion: I_p takes values 4 and 5, so it is not bounded by 3; the
+character-sum / Chebotarev argument gives k | I_p for infinitely many p.

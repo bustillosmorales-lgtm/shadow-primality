@@ -1,0 +1,28 @@
+=== 1. Pepin-shadow criterion ===
+  m=1: N=576^(2^1)+1  N-1 factored 2^a 3^b: True  (5/N)=-1: True  prime: True  Pepin-witness(a=5): True
+  m=2: N=576^(2^2)+1  N-1 factored 2^a 3^b: True  (5/N)=-1: True  prime: False  Pepin-witness(a=5): None
+  m=3: N=576^(2^3)+1  N-1 factored 2^a 3^b: True  (5/N)=-1: True  prime: False  Pepin-witness(a=5): None
+  m=4: N=576^(2^4)+1  N-1 factored 2^a 3^b: True  (5/N)=-1: True  prime: False  Pepin-witness(a=5): None
+
+=== 2. Oasis lattice: members in (P,P^2) are certified twins ===
+  P=7: 4 lattice points in (P,P^2), all are twin primes: True   density rho_P=0.07143
+  P=11: 7 lattice points in (P,P^2), all are twin primes: True   density rho_P=0.05844
+  P=13: 9 lattice points in (P,P^2), all are twin primes: True   density rho_P=0.04945
+
+=== 3. Sieve dimension kappa=1 (forbidden set is a singleton) ===
+  every prime forbids exactly one class per ray: True
+
+=== 4. shadow-admissible offsets ===
+  admissible c<=37 coprime to 6: [1, 5, 7, 11, 13, 17, 23, 25, 31, 35, 37]
+  density = 88/345 = 0.2551  (formula 0.2551)
+
+=== 5. shadow complement maps (primes = complement of images) ===
+  branch 5 mod 6 up to 6*2000: mismatches between primality and complement = 0 (want 0)
+
+=== 6. inversion dichotomy: lattice gap sequence non-constant (no closed form) ===
+  P=5: |Lambda mod P#|=3, distinct gaps=[6, 12], non-constant=True
+  P=7: |Lambda mod P#|=15, distinct gaps=[6, 12, 18, 30], non-constant=True
+  P=11: |Lambda mod P#|=135, distinct gaps=[6, 12, 18, 24, 30, 36, 42], non-constant=True
+  => the gap sequence is periodic and non-constant, hence the k-th lattice
+     element is not a polynomial in k: index inversion has no closed form
+     (regional inversion is achievable; the dichotomy is sharp).

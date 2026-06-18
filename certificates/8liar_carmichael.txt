@@ -1,0 +1,43 @@
+n = 256673641562639731
+   factors [24379, 528191, 19933079]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 24379 <= n^(1/3)=635516 ? True  (caught by L-check)
+   => OK
+
+n = 3825123056546413051
+   factors [149491, 747451, 34233211]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 149491 <= n^(1/3)=1563922 ? True  (caught by L-check)
+   => OK
+
+n = 254699850156491854531
+   factors [712219, 3561091, 100422739]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 712219 <= n^(1/3)=6338836 ? True  (caught by L-check)
+   => OK
+
+n = 326644156412798177801
+   factors [15401, 10364201, 2046398201]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 15401 <= n^(1/3)=6886918 ? True  (caught by L-check)
+   => OK
+
+n = 406109173515574567039
+   factors [307399, 12603319, 104822719]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 307399 <= n^(1/3)=7405384 ? True  (caught by L-check)
+   => OK
+
+n = 2242921587179041518751
+   factors [3993991, 13123111, 42792751]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 3993991 <= n^(1/3)=13089951 ? True  (caught by L-check)
+   => OK
+
+n = 5958695097405523240951
+   factors [2897311, 14486551, 141968191]  product_ok=True  factors_prime=True
+   Carmichael(Korselt)=True  liar_set=[1, 5, 7, 11, 13, 17, 19, 23]  eight_liar=True
+   least factor 2897311 <= n^(1/3)=18129412 ? True  (caught by L-check)
+   => OK
+
+ALL CHECKS PASS
